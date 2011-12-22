@@ -100,6 +100,7 @@ GEM
     syntax (1.0.0)
     temple (0.3.4)
     term-ansicolor (1.0.7)
+    therubyracer-heroku (0.8.1.pre3)
     thin (1.2.11)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -119,3 +120,4 @@ DEPENDENCIES
   heroku
   middleman (~> 2.0.14)
   rack-contrib
+  therubyracer-heroku
