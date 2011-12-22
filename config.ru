@@ -1,7 +1,10 @@
 require "rack"
 require "rack/contrib/try_static"
 
-`bundle exec middleman build`
+require "middleman"
+require "middleman/builder"
+
+Middleman::Builder.start
 
 use Rack::TryStatic,
     :root => "tmp",
